@@ -58,10 +58,12 @@ body{
 
 .output-terminal{
   background-color: #2F2F2F;
-  width: 985px;
-  height: 500px;
+  width: 905px;
+  height: 450px;
+  font-size: 25px;
+  line-height: 100px;
   color: white;
-  padding: 10px 10px 10px 10px;
+  padding: 50px 50px 50px 50px;
 }
 .vector1{
   top: 0px;
@@ -109,8 +111,8 @@ body{
 
 .geometry-img{
   position: absolute;
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   top: 0%;
   left: 0%;
   z-index: -1;
