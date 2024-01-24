@@ -1,4 +1,5 @@
 import React from "react";
+import Fetcher from './Fetch.jsx'
 import geometry from "./assets/geometry.svg"
 import vector1 from "./assets/vector1.svg"
 import vector2 from "./assets/vector2.svg"
@@ -9,7 +10,10 @@ import vector6 from "./assets/vector6.svg"
 import vector7 from "./assets/vector7.svg"
 import search from "./assets/search.png"
 
-export default function(){
+
+
+export default function App(){
+  console.log("Elem")
   return(
     <div className="Main-container">
         <img src = {geometry} className = "geometry-img"/>
@@ -41,3 +45,4 @@ export default function(){
     </div>
   )
 }
+
